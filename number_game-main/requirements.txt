@@ -1,0 +1,10 @@
+# AI Number Guessing Game Dependencies
+
+# DeepSeek API Client (OpenAI SDK format)
+openai>=1.0.0
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# Colored Terminal Output
+colorama>=0.4.6

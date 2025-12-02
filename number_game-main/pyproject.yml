@@ -1,0 +1,19 @@
+[project]
+name = "ai-number-game"
+version = "1.0.0"
+description = "AI Number Guessing Game - Two AI Agents Battle of Wits"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "openai>=1.0.0",
+    "python-dotenv>=1.0.0",
+    "colorama>=0.4.6",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.black]
+line-length = 100
+target-version = ['py38']
